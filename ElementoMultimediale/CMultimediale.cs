@@ -8,7 +8,7 @@ namespace ElementoMultimediale
 {
     internal abstract class CMultimediale
     {
-        //IMPELEMENTARE ALTRE DUE INTERFACCE. IVOLUME E ILUMINOSITA
+
         protected string nome;
 
         protected CMultimediale(string nome)
@@ -31,5 +31,6 @@ namespace ElementoMultimediale
             }
         }
 
+        public abstract string ToString();
     }
 }

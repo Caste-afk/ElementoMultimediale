@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ElementoMultimediale
 {
-    internal interface IAudio : IVolume
+    internal interface IVolume
     {
-        string Play();
+        void Weaker();
+        void Louder();
     }
 }

@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace ElementoMultimediale
 {
-    internal interface IAudio : IVolume
+    internal interface ILuminosita
     {
-        string Play();
+
+        void Brighter();
+        void Darker();
     }
 }

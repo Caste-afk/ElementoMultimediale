@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace ElementoMultimediale
 {
-    internal interface IImmagine
+    internal interface IImmagine : ILuminosita
     {
-        void Show();
-        void Brighter();
-        void Darker();
+        string Show();
     }
 }
